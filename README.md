@@ -1,6 +1,6 @@
 # marvel_rep_l3
 
-#1. DECISION TREES
+# 1. DECISION TREES
 
 Learnt about Decision Tress and how it works. Learnt how a tree consists of root node, parent node, decision node, leaf node, etc. Also learnt about pruning and splitting. Also learnt about ID3 algorithm and how it works. 
 ![WhatsApp Image 2025-01-03 at 13 50 32_3c86e7b6](https://github.com/user-attachments/assets/3e7e10d9-6751-43fa-a389-97232501f68e)
