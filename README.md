@@ -16,3 +16,8 @@ Then, implemented it from scratch on a diabetes dataset.
 ![WhatsApp Image 2025-03-02 at 22 55 02_dcf39bc0](https://github.com/user-attachments/assets/31f04c14-fb2b-443c-b798-7c9b779ad694)
 ![WhatsApp Image 2025-03-02 at 22 55 15_a6ee6c27](https://github.com/user-attachments/assets/52a9bdd3-0d06-44f7-8742-454c6aaf14c2)
 [Link to colab file](https://colab.research.google.com/drive/1VHYBERsAy4Pb13ZZvaal8t0Pye8-V1P_?usp=sharing)
+
+## 3. ENSEMBLE TECHNIQUES
+
+![image](https://github.com/user-attachments/assets/338b89ba-6090-44f1-9b71-121c23f95bf2)
+
