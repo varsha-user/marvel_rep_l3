@@ -17,7 +17,16 @@ Then, implemented it from scratch on a diabetes dataset.
 ![WhatsApp Image 2025-03-02 at 22 55 15_a6ee6c27](https://github.com/user-attachments/assets/52a9bdd3-0d06-44f7-8742-454c6aaf14c2)
 [Link to colab file](https://colab.research.google.com/drive/1VHYBERsAy4Pb13ZZvaal8t0Pye8-V1P_?usp=sharing)
 
-## 3. ENSEMBLE TECHNIQUES
+## 3. AND 4. ENSEMBLE TECHNIQUES AND RANDOM FORESTS, GRADIENT BOOST MACHINE(GBM) AND XGBOOST
 
+Learnt about different ensemble techniques and understood how they help in improving model accuracies and help in better prediction and classification. 
+I learnt about:
+* Bagging
+* Boosting
+* Stacking
+  And I implemented it on the Titanic dataset. Under the implementation of boosting itself I have covered the implementation of both GBM and XGboost for the same Titanic dataset.
 ![image](https://github.com/user-attachments/assets/338b89ba-6090-44f1-9b71-121c23f95bf2)
+![Screenshot 2025-03-23 195119](https://github.com/user-attachments/assets/d25b05b3-7143-4376-8a9d-ddc99c421b72)
+[Link to colab file](https://colab.research.google.com/drive/1Q2qzXytnvE8rWrXQfxMWgixSbojk9jJ5?usp=sharing)
 
+## 5. AND 
