@@ -28,5 +28,7 @@ I learnt about:
 ![image](https://github.com/user-attachments/assets/338b89ba-6090-44f1-9b71-121c23f95bf2)
 ![Screenshot 2025-03-23 195119](https://github.com/user-attachments/assets/d25b05b3-7143-4376-8a9d-ddc99c421b72)
 [Link to colab file](https://colab.research.google.com/drive/1Q2qzXytnvE8rWrXQfxMWgixSbojk9jJ5?usp=sharing)
+And Random forests,
+[Link to Colab file](https://colab.research.google.com/drive/17G6KJZJ1i7NudinlD5Wfei9tgWkjSLc2?usp=sharing)
 
 ## 5. AND 
