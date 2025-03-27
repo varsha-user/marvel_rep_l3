@@ -31,4 +31,12 @@ I learnt about:
 And Random forests,
 [Link to Colab file](https://colab.research.google.com/drive/17G6KJZJ1i7NudinlD5Wfei9tgWkjSLc2?usp=sharing)
 
-## 5. AND 
+## 6. K MEANS CLUSTERING
+
+K-means clustering is an unsupervised learning ML algorithm, which forms clusters by initialising some random data points as centroids and assigning other data points to ach of these clusters. The 'k' here is the number of clusters. Once the clusters are formed, their mean value is assigned as the new centroid and this process is iterated till there is no more change in the new clusters are formed. Here, the clustering happens by finding out the Euclidian distance of the point from the centroid. It is computationally efficient and is ideal for use cases like: *1) Fraud detection *2) Shopping store customer grouping and optimisation *3) Document classification
+I also briefly went through alternative options for unsupervised learning ML algos and ways to improve K-means clustering.
+
+I used the MNIST dataset available in Google Colab and imported it for implementing K-means clustering on that MNIST Dataset. 
+[Implementing K-means clustering on MNIST Dataset](https://colab.research.google.com/drive/1woO4XHX0A_tkKc1rFbX80vJOVsxYYNzc?usp=sharing)
+
+
