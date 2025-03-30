@@ -45,3 +45,17 @@ I used the MNIST dataset available in Google Colab and imported it for implement
 [Implementing K-means clustering on MNIST Dataset](https://colab.research.google.com/drive/1woO4XHX0A_tkKc1rFbX80vJOVsxYYNzc?usp=sharing)
 
 
+## 8. Generative AI Task Using GAN(Generative Adversial Networks)
+
+I learnt about how GAN works, and how it used to generate images or music or any kind of data. It is an unsupervised model, turned supervised, since the training dataset doesn't consist of any labels, whereas the discriminator ends up labelling the generator's output as real or fake(generated). So, a GAN model uses neural networks concept and consists of a Generator and a Discriminator. The generator(G) uses the input information and generates some information (G(z)), which is the fake data. Then the discriminator(D), uses the real data(x) and as well as G(z) and labels the input it got as fake or real. So, if discriminator guesses it right, then the generator models needs to improve itself and if the opposite happens, then it's the other way round. It utilises a cost function, where we sum the individual probabilities of the discriminator's labelling score on the real data and the fake data. 
+#### The discriminator wants: *High D(x) *Low D(G(x))
+![image](https://github.com/user-attachments/assets/8ed690bc-4ecd-4f53-8186-de0c31a471aa)
+
+For this task, I have, tried to generate Pokemon Images using DC-GAN(Deep Convolutional GAN), which is a GAN architecture. 
+[Generating Pokemon images](https://colab.research.google.com/drive/1xICH046ZbYIWJ7ebnD1h6XEdmio0Pv_b?usp=sharing)
+
+
+
+
+
+
