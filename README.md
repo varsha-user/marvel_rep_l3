@@ -34,7 +34,22 @@ Under the implementation of boosting itself I have covered the implementation of
 [Implementation of Ensemble methods on the Titanic Dataset](https://colab.research.google.com/drive/1Q2qzXytnvE8rWrXQfxMWgixSbojk9jJ5?usp=sharing)
 
 And Random forests,
-[Implementation of Random Forests on the Iris Dataset](https://colab.research.google.com/drive/17G6KJZJ1i7NudinlD5Wfei9tgWkjSLc2?usp=sharing)
+[Implementation of Random Forests on the Iris Dataset](https://colab.research.google.com/drive/17G6KJZJ1i7NudinlD5Wfei9tgWkjSLc2?usp=sharing
+
+## 5. HYPERPARAMTER TUNING
+
+It is the process of predetermining the hyperparameters for an ML model. It is great because, it prevents overfitting and underfitting and makes the model simpler, more interpretable and more accurate ofc. But it is a bit computationally expensive and is has usage of high dimensional hyperparameter spaces. It involves different methods: 
+
+* GridSearchCV: Every combination of hyperparameters is tried out and the one yielding the best results is chosen. This is computationally expensive, and exhaustive cuz of the several iterations.
+  
+* RandomizedSearchCV: It is better than GridSearchCV, since it does not need to go over and try every combination. It randomly starts with a combination of values of hyperparamets and repets this several ties and decides the best result one as the final combination to be used. This process is good since a greater range of values are covered, but we might not end up getting the best possible comination.
+  
+* Bayesian Optimization: It uses a probablistic model, based on the evaluation of the previous combinations results and uses something called as a surrogate function that is a probabilitis estimation of other objective functions like rmse/mse that are computationally expensive to calculate everytime. So, it iteratively finds this surrogate function's value and comes to the most accurate solution.
+  
+![image](https://github.com/user-attachments/assets/3f8f3753-5a95-4a00-8dd5-da6ac29db590)
+
+I tried to implement this on the classic California Housing Dataset available on Google Colab, fo linear regression. I have included some text about my understanding of hyperparameter tuning for this particular ML model.
+[Link for the same](https://colab.research.google.com/drive/1imXdMxPDuDBA9pfeKzuxo9S_KAAeuONG?usp=sharing)
 
 ## 6. K MEANS CLUSTERING
 
@@ -43,6 +58,17 @@ I also briefly went through alternative options for unsupervised learning ML alg
 
 I used the MNIST dataset available in Google Colab and imported it for implementing K-means clustering on that MNIST Dataset. 
 [Implementing K-means clustering on MNIST Dataset](https://colab.research.google.com/drive/1woO4XHX0A_tkKc1rFbX80vJOVsxYYNzc?usp=sharing)
+
+## 7. ANOMALY DETECTION
+
+It is the process of identifying a deviation from the expected or normal behavior or pattern in the data. We collect and analyse data and then analyse it. We use the pyod library in python to detect the utliers. 
+It could be classified into:
+![image](https://github.com/user-attachments/assets/dfcab714-f264-4048-89eb-f06d8e37524f)
+The algorthms used majorly are:
+1* **_Local Outlier Factor (LOF) algorithm_**: This algorithm uses the local density of points in a dataset to identify anomalies.
+2* **_Isolation Forest_**: This uses decision trees to identify anomalies, by isolating points that are difficult to reach in the decision tree. 
+3* **_One-class Support Vector Machines (SVMs)_**: This separates the majority of the data from the anomalies.
+4* **_Elliptic Envelope_**: This assumes that the data is normally distributed and it fits an ellipse around the data, and identifies points that fall outside of the ellipse as anomalies.
 
 
 ## 8. Generative AI Task Using GAN(Generative Adversial Networks)
@@ -53,6 +79,19 @@ I learnt about how GAN works, and how it used to generate images or music or any
 
 For this task, I have, tried to generate Pokemon Images using DC-GAN(Deep Convolutional GAN), which is a GAN architecture. 
 [Generating Pokemon images](https://colab.research.google.com/drive/1xICH046ZbYIWJ7ebnD1h6XEdmio0Pv_b?usp=sharing)
+
+## 9. PDF QUERY USING LANGCHAIN
+
+So, Langchain is an NLP framework, which is used to get info form an uploaded document based on user query. issues and breaking them down into smaller sub-tasks. I used  HuggingFaceEmbeddings which uses sentence-transformers to generate embeddings for the text chunks, and RetrievalQA Chain which combines retrieval with the LLM to provide answers to your questions.
+I implemented this and tested by uploading a resume and a research paper.
+[The implementation.](https://colab.research.google.com/drive/1gxJojJxFlcS4CQgX-B3ZefP6XQ10A0dv?usp=sharing)
+
+## 10. TABLE ANALYSIS USING PADDLEOCR
+
+PaddleOCR is an OCR(Optical Character Recognition) framework, which detects and parses texts from uploaded the uploaded image extract that data from the image. 
+It works by creating bounding boxes around the recognised text from the image and then using algorithms like feature analysis(where each character's feature like number of lines/curver, ect is compared with the training dataset characters) or by comparing a found character with every character of the training dataset. It also sometimes uses it's dictionary, like for example: if a word say dog is written in such a way that the ocr model cnat particularly make out if the middle letter is an a or o, then it could just check the dictionary out and conclude the word being dog. And realized how Google DocAI, Google lens, Amazon Textract might all be working using a similar logic. 
+I implemented this and tested by uploading a bunch of bills and invoices.
+[The implementation.](https://colab.research.google.com/drive/1BzXc0RJQNU4LZlgL8yz5SaOK3qQEZPub?usp=sharing)
 
 
 
